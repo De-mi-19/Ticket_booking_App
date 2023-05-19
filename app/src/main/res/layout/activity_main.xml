@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="80dp"
+        android:inputType="text"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="35dp"
+
+         />
+
+    <EditText
+        android:id="@+id/UserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:hint="UserId"
+        android:layout_marginTop="70dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/Pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserID"
+        android:layout_marginTop="60dp"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/LgnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pswd"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+
+        android:padding="15dp"
+        android:text="Login"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/FgtPswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LgnBtn"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+
+        android:padding="10dp"
+        android:text="Forgot Password"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/SignUP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LgnBtn"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="1.2in"
+        android:padding="10dp"
+        android:text=" / Sign Up"
+        android:textSize="17dp" />
+
+</RelativeLayout>
